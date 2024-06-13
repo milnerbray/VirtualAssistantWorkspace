@@ -238,7 +238,7 @@ while True:
                 engine.say(text_to_speak)
                 engine.runAndWait()
                 text_to_speak = ""
-                exec(open(r"C:\Users\milne\Downloads\VirtualAssistantWorkspace\virtual-assistant\SpotifyOpenWin.py").read())
+                exec(open(r"C:\Users\milne\OneDrive\Documents\GitHub\VirtualAssistantWorkspace\VirtualAssistantWorkspace\virtual-assistant\SpotifyOpenWin.py").read())
             elif 'music interface' in recognized_text.lower() or 'user interface' in recognized_text.lower():
                 # Must have Spotify installed on your Windows device for this command to work
                 text_to_speak = "Moving to Spotify Control Interface"
